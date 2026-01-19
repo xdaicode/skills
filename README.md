@@ -19,33 +19,9 @@
 
 ## 📦 Installation
 
-### Option 1: Direct Download (Recommended)
+### Option 1: As Claude Skill ⭐ (Recommended)
 
-```bash
-# Clone the repository
-git clone https://github.com/xdaicode/skills.git
-cd skills
-
-# Run directly
-python jsonl_converter.py session.jsonl
-```
-
-### Option 2: Install as Package
-
-```bash
-# From local directory
-cd skills
-pip install -e .
-
-# Or install directly from GitHub
-pip install git+https://github.com/xdaicode/skills.git
-```
-
-**Note**: After installation, you can use `python -m jsonl_converter` instead of the full path.
-
-### Option 3: As Claude Skill ⭐
-
-#### Quick Install (Recommended for Claude Code Users)
+#### Quick Install (For Claude Code Users)
 
 In Claude Code, run:
 ```bash
@@ -70,6 +46,30 @@ git clone https://github.com/xdaicode/skills.git jsonl-converter
 ```
 
 📖 **See**: [CLAUDE_SKILL_INSTALL.md](CLAUDE_SKILL_INSTALL.md) for detailed installation guide
+
+### Option 2: Direct Download
+
+```bash
+# Clone the repository
+git clone https://github.com/xdaicode/skills.git
+cd skills
+
+# Run directly
+python jsonl_converter.py session.jsonl
+```
+
+### Option 3: Install as Package
+
+```bash
+# From local directory
+cd skills
+pip install -e .
+
+# Or install directly from GitHub
+pip install git+https://github.com/xdaicode/skills.git
+```
+
+**Note**: After installation, you can use `python -m jsonl_converter` instead of the full path.
 
 ## 🚀 Usage
 
