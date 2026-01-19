@@ -21,31 +21,20 @@
 
 ### Option 1: As Claude Skill ⭐ (Recommended)
 
-#### Quick Install (For Claude Code Users)
-
-In Claude Code, run:
-```bash
-/plugin marketplace add xdaicode/skills
-```
-
-Then simply tell Claude:
-```
-Please convert d:/AI/session.jsonl to a readable document
-```
-
 #### Manual Install
 
-Copy these files to your Claude skills directory (`~/.claude/skills/`):
-- `SKILL.md`
-- `jsonl_converter.py`
-
-**Or clone directly**:
+Clone to your Claude skills directory:
 ```bash
 cd ~/.claude/skills
 git clone https://github.com/xdaicode/skills.git jsonl-converter
 ```
 
-📖 **See**: [CLAUDE_SKILL_INSTALL.md](CLAUDE_SKILL_INSTALL.md) for detailed installation guide
+Then restart Claude Code and use:
+```
+Please convert d:/AI/session.jsonl to a readable document
+```
+
+📖 **See**: [INSTALLATION_GUIDE.md](INSTALLATION_GUIDE.md) for detailed installation guide
 
 ### Option 2: Direct Download
 
