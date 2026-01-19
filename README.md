@@ -43,13 +43,33 @@ pip install git+https://github.com/xdaicode/skills.git
 
 **Note**: After installation, you can use `python -m jsonl_converter` instead of the full path.
 
-### Option 3: As Claude Skill
+### Option 3: As Claude Skill ⭐
+
+#### Quick Install (Recommended for Claude Code Users)
+
+In Claude Code, run:
+```bash
+/plugin marketplace add xdaicode/skills
+```
+
+Then simply tell Claude:
+```
+Please convert d:/AI/session.jsonl to a readable document
+```
+
+#### Manual Install
 
 Copy these files to your Claude skills directory (`~/.claude/skills/`):
 - `SKILL.md`
 - `jsonl_converter.py`
 
-See [Anthropic Skills Documentation](https://github.com/anthropics/skills) for details.
+**Or clone directly**:
+```bash
+cd ~/.claude/skills
+git clone https://github.com/xdaicode/skills.git jsonl-converter
+```
+
+📖 **See**: [CLAUDE_SKILL_INSTALL.md](CLAUDE_SKILL_INSTALL.md) for detailed installation guide
 
 ## 🚀 Usage
 
