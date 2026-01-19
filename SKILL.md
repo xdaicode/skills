@@ -1,3 +1,8 @@
+---
+name: jsonl-converter
+description: Convert Claude AI JSONL session logs to readable Markdown documents. Use when you need to extract, read, or share Claude conversation history from .jsonl files.
+---
+
 # JSONL 对话记录转换器
 
 将 Claude 的 JSONL 格式对话记录转换为可读性 Markdown 文档。
