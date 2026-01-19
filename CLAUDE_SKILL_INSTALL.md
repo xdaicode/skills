@@ -1,27 +1,8 @@
 # Claude Skill 安装指南
 
-## 🎯 快速安装（3 种方式）
+## 🎯 快速安装（推荐方式）
 
-### 方式 1: 使用 Claude Code 插件市场（最简单）
-
-在 Claude Code 中运行：
-
-```bash
-/plugin marketplace add xdaicode/skills
-```
-
-或者直接安装：
-
-```bash
-/plugin install jsonl-converter@xdaicode/skills
-```
-
-安装后，直接告诉 Claude：
-```
-请将 d:/AI/session.jsonl 转换为可读文档
-```
-
-### 方式 2: 手动安装到 Claude Skills 目录
+### 方式 1: 手动安装到 Claude Skills 目录（推荐）⭐
 
 #### 1. 找到 Claude Skills 目录
 
@@ -75,7 +56,7 @@ cp jsonl_converter.py ~/.claude/skills/jsonl-converter/
 请将 d:/AI/session.jsonl 转换为可读文档
 ```
 
-### 方式 3: 从 GitHub 直接安装（推荐）
+### 方式 2: 从 GitHub 直接安装
 
 ```bash
 # 克隆仓库到 skills 目录
