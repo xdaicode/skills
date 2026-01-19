@@ -19,19 +19,29 @@
 
 ## 📦 Installation
 
-### Option 1: Direct Download
+### Option 1: Direct Download (Recommended)
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/claude-jsonl-converter.git
-cd claude-jsonl-converter
+git clone https://github.com/xdaicode/skills.git
+cd skills
+
+# Run directly
+python jsonl_converter.py session.jsonl
 ```
 
 ### Option 2: Install as Package
 
 ```bash
-pip install claude-jsonl-converter
+# From local directory
+cd skills
+pip install -e .
+
+# Or install directly from GitHub
+pip install git+https://github.com/xdaicode/skills.git
 ```
+
+**Note**: After installation, you can use `python -m jsonl_converter` instead of the full path.
 
 ### Option 3: As Claude Skill
 
@@ -43,27 +53,29 @@ See [Anthropic Skills Documentation](https://github.com/anthropics/skills) for d
 
 ## 🚀 Usage
 
-### Basic Conversion
+### Method 1: Direct Script (Recommended)
 
 ```bash
+# Basic conversion
 python jsonl_converter.py session.jsonl
+
+# Specify output file
+python jsonl_converter.py input.jsonl output.md
 ```
 
 This creates `session_readable.md` in the same directory.
 
-### Specify Output Path
+### Method 2: Using Python Module (After Installation)
 
 ```bash
-python jsonl_converter.py input.jsonl output.md
+# Convert using Python module
+python -m jsonl_converter session.jsonl
+
+# With custom output
+python -m jsonl_converter input.jsonl output.md
 ```
 
-### Using Installed Command
-
-```bash
-jsonl2md input.jsonl output.md
-```
-
-### In Claude Code
+### Method 3: In Claude Code
 
 Simply tell Claude:
 ```
@@ -221,9 +233,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📮 Support
 
-- 📖 [Documentation](https://github.com/yourusername/claude-jsonl-converter/wiki)
-- 🐛 [Report Issues](https://github.com/yourusername/claude-jsonl-converter/issues)
-- 💡 [Feature Requests](https://github.com/yourusername/claude-jsonl-converter/issues)
+- 📖 [Documentation](https://github.com/xdaicode/skills/claude-jsonl-converter/wiki)
+- 🐛 [Report Issues](https://github.com/xdaicode/skills/claude-jsonl-converter/issues)
+- 💡 [Feature Requests](https://github.com/xdaicode/skills/claude-jsonl-converter/issues)
 
 ## 🔮 Roadmap
 
